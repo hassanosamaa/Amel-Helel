@@ -8,6 +8,8 @@ import Contact from './routerComponents/Contact';
 import Footer from './mainComponents/Footer';
 import { useRef } from "react";
 import Title from "./utilitiesComponents/Title";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
