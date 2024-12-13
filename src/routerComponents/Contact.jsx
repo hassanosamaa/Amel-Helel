@@ -53,7 +53,7 @@ export default function Contact(){
                 onChange={handleMessageChange}></textarea>
                 <button className='btn 
                 border border-sky-500 bg-sky-800 m-2'>
-                    <a href={`mailto:${"almsryh877@gmail.com"}?subject=${"from protofolio"}&body=${message}`}>Click to Send an Email</a>
+                    <a href={`mailto:${"Amelhelaal0@gmail.com"}?subject=${"from protofolio"}&body=${message}`}>Click to Send an Email</a>
                     </button>
 
 
