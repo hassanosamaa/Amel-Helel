@@ -4,18 +4,18 @@ export default function Oneproject({ img }) {
   return (
     <div
       className="
-                w-full md:w-[30%]
+                w-full md:w-[90%]
                 flex flex-col overflow-hidden
-                p-2
+                p-[5px]
                 justify-center items-start
-                gap-[5px] rounded-xl
+                 rounded-xl
                 shadow-lg
                  shadow-gray-800
                  hover:shadow-sky-500
                  transition duration-300
                 bg-sky-950"
     >
-      <div className="w-full md:h-[300px] ">
+      <div className="w-full h-[420px] md:h-[370px] ">
         <img
           className="w-full  rounded-xl
                     h-full"
