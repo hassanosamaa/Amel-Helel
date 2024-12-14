@@ -4,7 +4,7 @@ export default function Oneproject({ img }) {
   return (
     <div
       className="
-                w-full md:w-[90%]
+                w-full md:w-[35%]
                 flex flex-col overflow-hidden
                 p-[5px]
                 justify-center items-start
