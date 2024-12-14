@@ -225,11 +225,11 @@ export default function Projects() {
             
             "
       >
-        <Slider {...settings} className="w-full md:px-8">
+{/*         <Slider {...settings} className="w-full md:px-8">
+        </Slider> */}
           {c.map((ele) => (
             <Oneproject key={ele.dec} dec={ele.dec} img={ele.img} />
           ))}
-        </Slider>
       </div>
     </div>
   );
