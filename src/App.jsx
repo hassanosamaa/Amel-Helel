@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div ref={Body} className='font-font_family '>
-      <div className="bg_dark dark:bg-gray-300">
+      <div className="bg_dark dark:bg-gray-300" >
           <Nav fun={BODY}/>
           <Home/>
           <Title title={"My Skills"}/>
