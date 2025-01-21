@@ -64,7 +64,7 @@ export default function Home(){
                 
                 </div>
                 <div className="btn mt-4 border border-sky-500 cursor-pointer">
-                <a href={cv} download="Hassan Osama_cv.pdf">Download My CV</a> </div>
+                <a href={cv} download="Amel Helal cv.pdf">Download My CV</a> </div>
 
             </div>
 

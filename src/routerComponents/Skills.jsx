@@ -12,15 +12,15 @@ import skill10 from '../imges/skills/trendforcasting.png'
 
 export default function Skills(){
     const data=[
-        {name:"Creative Director" ,img:skill1},
+        {name:"Creative Fashion Designer" ,img:skill1},
         {name:"Designing" ,img:skill2},
         {name:"Draping " ,img:skill3},
         {name:"Pattern Making" ,img:skill4},
         {name:"Fashion Experience" ,img:skill5},
-        {name:"Sewing" ,img:skill6},
+        {name:"Sewing & Technical Knowledge" ,img:skill6},
         {name:"Sketching Designs" ,img:skill7},
         {name:"Styling" ,img:skill8},
-        {name:"Textiles Design" ,img:skill9},
+        {name:"Fabric Design" ,img:skill9},
         {name:"Trend For Casting" ,img:skill10},
        ]
     return(

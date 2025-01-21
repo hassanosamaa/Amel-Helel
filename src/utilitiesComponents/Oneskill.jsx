@@ -15,7 +15,7 @@ export default function Oneskill({name,img}){
         tansition duration-300
         shadow-lg
         shadow-sky-950
-        hover:shadow-sky-500 h-[170px] p-[20px]
+        hover:shadow-sky-500 h-[200px] p-[20px]
         
         group">
             <div className='skill group-hover:scale-110 
@@ -24,7 +24,7 @@ export default function Oneskill({name,img}){
             <img src={img} className='w-full h-full'
             
               /></div>
-            <div className="font-bold dark:text-gray-100
+            <div className="font-bold dark:text-gray-100 text-[15px]
             text-gray-300 tracking-wider p-[10px] text-center">{name}</div>
 
         </motion.div>
