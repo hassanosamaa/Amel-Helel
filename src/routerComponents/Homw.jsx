@@ -3,6 +3,8 @@ import ani from "../lottie/ani.json";
 import { motion } from "framer-motion";
 import my from "../imges/my.jpeg";
 import cv from "../cv/cv.pdf";
+import bgWeb from '../imges/logo-bg.png';
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
         md:gap-[10%] text-white
         
        "
+     
     >
       <div
         className="  

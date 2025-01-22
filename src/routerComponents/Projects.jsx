@@ -148,7 +148,6 @@ export default function Projects() {
     { img: a11 },
     { img: z6 },
     { img: z7 },
-    { img: z8 },
     { img: a12 },
     { img: a1 },
     { img: a2 },
