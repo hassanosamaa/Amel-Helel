@@ -100,21 +100,22 @@ export default function Projects() {
   const data0 = [
     { img: s5 },
     { img: s6 },
-    { img: z1 },
     { img: s34 },
-    { img: a13 },
     { img: s35 },
     { img: s36 },
-    { img: s37 },
+    { img: z2 },
     { img: z13 },
+    { img: z9 },
+    { img: a13 },
+    { img: a14 },
+    { img: a4 },
+    { img: a8 },
+    { img: z1 },
+    { img: s37 },
     { img: s12 },
     { img: s15 },
-    { img: a14 },
-    { img: a8 },
-
     { img: z3 },
     { img: z4 },
-    { img: a4 },
     { img: a5 },
     { img: a6 },
     { img: s20 },
@@ -122,11 +123,9 @@ export default function Projects() {
     { img: s22 },
     { img: s23 },
     { img: s24 },
-    { img: z9 },
     { img: z10 },
     { img: z11 },
     { img: z12 },
-    { img: z2 },
     { img: z14 },
     { img: s7 },
     { img: s8 },
@@ -135,7 +134,6 @@ export default function Projects() {
     { img: s11 },
     { img: s12 },
     { img: s13 },
-
     { img: a7 },
     { img: a3 },
     { img: a9 },
@@ -151,23 +149,18 @@ export default function Projects() {
     { img: a1 },
     { img: a2 },
     { img: a15 },
-
     { img: s3 },
     { img: s4 },
     { img: s1 },
     { img: s2 },
-
     { img: s14 },
     { img: s15 },
     { img: s16 },
     { img: s17 },
     { img: z5 },
-
     { img: s18 },
     { img: s19 },
-
     { img: s25 },
-
     { img: s29 },
     { img: s30 },
     { img: s31 },
@@ -284,7 +277,7 @@ export default function Projects() {
           }}
           className={c === data ? "btn check" : "btn"}
         >
-          Abayas
+          Abaya
         </button>
         <button
           onClick={() => {
