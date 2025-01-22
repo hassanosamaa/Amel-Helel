@@ -62,6 +62,10 @@ import s30 from "../imges/s/s30.jpeg";
 import s31 from "../imges/s/s31.jpeg";
 import s32 from "../imges/s/s32.jpeg";
 import s33 from "../imges/s/s33.jpeg";
+import s34 from "../imges/s/s34.jpeg";
+import s35 from "../imges/s/s35.jpeg";
+import s36 from "../imges/s/s36.jpeg";
+import s37 from "../imges/s/s37.jpeg";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -71,10 +75,10 @@ export default function Projects() {
   const settings = {
     dots: false,
     infinite: true,
-    arrows:true,
+    arrows: true,
     speed: 500,
     autoplay: true, // تشغيل تلقائي
-        autoplaySpeed: 2000,
+    autoplaySpeed: 2000,
     slidesToShow: 4, // عدد الصور المرئية
     slidesToScroll: 1,
     responsive: [
@@ -87,32 +91,109 @@ export default function Projects() {
       {
         breakpoint: 480,
         settings: {
-            arrows:false,
-            slidesToShow: 1,
+          arrows: false,
+          slidesToShow: 1,
         },
       },
     ],
   };
-  const data = [
+  const data0 = [
+    { img: s5 },
+    { img: s6 },
+    { img: z1 },
+    { img: s34 },
+    { img: a13 },
+    { img: s35 },
+    { img: s36 },
+    { img: s37 },
+    { img: z13 },
+    { img: s12 },
+    { img: s15 },
+    { img: a14 },
+    { img: a8 },
+
+    { img: z3 },
+    { img: z4 },
+    { img: a4 },
+    { img: a5 },
+    { img: a6 },
+    { img: s20 },
+    { img: s21 },
+    { img: s22 },
+    { img: s23 },
+    { img: s24 },
+    { img: z9 },
+    { img: z10 },
+    { img: z11 },
+    { img: z12 },
+    { img: z2 },
+    { img: z14 },
+    { img: s7 },
+    { img: s8 },
+    { img: s9 },
+    { img: s10 },
+    { img: s11 },
+    { img: s12 },
+    { img: s13 },
+
+    { img: a7 },
+    { img: a3 },
+    { img: a9 },
+    { img: a10 },
+    { img: s26 },
+    { img: s27 },
+    { img: s28 },
+    { img: a11 },
+    { img: z6 },
+    { img: z7 },
+    { img: z8 },
+    { img: a12 },
     { img: a1 },
     { img: a2 },
-    { img: a3 },
+    { img: a15 },
+
+    { img: s3 },
+    { img: s4 },
+    { img: s1 },
+    { img: s2 },
+
+    { img: s14 },
+    { img: s15 },
+    { img: s16 },
+    { img: s17 },
+    { img: z5 },
+
+    { img: s18 },
+    { img: s19 },
+
+    { img: s25 },
+
+    { img: s29 },
+    { img: s30 },
+    { img: s31 },
+    { img: s32 },
+    { img: s33 },
+  ];
+  const data = [
+    { img: a13 },
+    { img: a14 },
+    { img: a8 },
     { img: a4 },
     { img: a5 },
     { img: a6 },
     { img: a7 },
-    { img: a8 },
+    { img: a3 },
     { img: a9 },
     { img: a10 },
     { img: a11 },
     { img: a12 },
-    { img: a13 },
-    { img: a14 },
+    { img: a1 },
+    { img: a2 },
     { img: a15 },
   ];
   const data2 = [
     { img: z1 },
-    { img: z2 },
+    { img: z13 },
     { img: z3 },
     { img: z4 },
     { img: z5 },
@@ -123,16 +204,20 @@ export default function Projects() {
     { img: z10 },
     { img: z11 },
     { img: z12 },
-    { img: z13 },
+    { img: z2 },
     { img: z14 },
   ];
   const data3 = [
-    { img: s1 },
-    { img: s2 },
-    { img: s3 },
-    { img: s4 },
     { img: s5 },
     { img: s6 },
+    { img: s34 },
+    { img: s35 },
+    { img: s36 },
+    { img: s37 },
+    { img: s3 },
+    { img: s4 },
+    { img: s1 },
+    { img: s2 },
     { img: s7 },
     { img: s8 },
     { img: s9 },
@@ -161,7 +246,7 @@ export default function Projects() {
     { img: s32 },
     { img: s33 },
   ];
-  const [c, setC] = useState(data2);
+  const [c, setC] = useState(data0);
 
   return (
     <div
@@ -187,6 +272,14 @@ export default function Projects() {
       >
         <button
           onClick={() => {
+            setC(data0);
+          }}
+          className={c === data0 ? "btn check" : "btn"}
+        >
+          All
+        </button>
+        <button
+          onClick={() => {
             setC(data);
           }}
           className={c === data ? "btn check" : "btn"}
@@ -207,7 +300,7 @@ export default function Projects() {
           }}
           className={c === data3 ? "btn check" : "btn"}
         >
-          Sari{" "}
+          soiree{" "}
         </button>
       </div>
       <div
@@ -225,11 +318,11 @@ export default function Projects() {
             
             "
       >
-{/*         <Slider {...settings} className="w-full md:px-8">
+        {/*         <Slider {...settings} className="w-full md:px-8">
         </Slider> */}
-          {c.map((ele) => (
-            <Oneproject key={ele.dec} dec={ele.dec} img={ele.img} />
-          ))}
+        {c.map((ele) => (
+          <Oneproject key={ele.dec} dec={ele.dec} img={ele.img} />
+        ))}
       </div>
     </div>
   );
