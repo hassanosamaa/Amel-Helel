@@ -103,17 +103,21 @@ export default function Projects() {
     { img: s34 },
     { img: s35 },
     { img: s36 },
+    { img: s37 },
+    { img: s12 },
+    { img: s15 },
+
     { img: z2 },
     { img: z13 },
     { img: z9 },
+    { img: z1 },
+
+    
     { img: a13 },
     { img: a14 },
     { img: a4 },
     { img: a8 },
-    { img: z1 },
-    { img: s37 },
-    { img: s12 },
-    { img: s15 },
+   
     { img: z3 },
     { img: z4 },
     { img: a5 },
@@ -154,7 +158,6 @@ export default function Projects() {
     { img: s1 },
     { img: s2 },
     { img: s14 },
-    { img: s15 },
     { img: s16 },
     { img: s17 },
     { img: z5 },
