@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import ani from "../lottie/ani.json";
 import { motion } from "framer-motion";
 import my from "../imges/my.jpeg";
-import cv from "../cv/cv.pdf";
+import cv from "../cv.pdf";
 import bgWeb from '../imges/logo-bg.png';
 
 
